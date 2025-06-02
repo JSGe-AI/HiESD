@@ -44,9 +44,9 @@ Execute the following command for training. The `--data_root` contains the 5-fol
 
 ```
 python conch_train.py \
-  --data_root /data_nas2/gjs/ESD_2025/classification/CONCH_4class/5_fold \
-  --result_dir /home/gjs/ESD_2025/Experiment/results/CONCH \
-  --ckpt_dir /home/gjs/ESD_2025/Experiment/ckpt/CONCH \
+  --data_root /data_nas2/ESD_2025/classification/CONCH_4class/5_fold \
+  --result_dir /home/ESD_2025/Experiment/results/CONCH \
+  --ckpt_dir /home/ESD_2025/Experiment/ckpt/CONCH \
   --input_size 512 \
   --hidden_size 2048 \
   --learning_rate 0.0001 \
@@ -58,9 +58,9 @@ python conch_train.py \
 
 ```
 python UNI_train.py \
-  --data_root /data_nas2/gjs/ESD_2025/classification/UNI_4cls/5_fold \
-  --result_dir /home/gjs/ESD_2025/Experiment/results/UNI \
-  --ckpt_dir /home/gjs/ESD_2025/Experiment/ckpt/UNI \
+  --data_root /data_nas2/ESD_2025/classification/UNI_4cls/5_fold \
+  --result_dir /home/ESD_2025/Experiment/results/UNI \
+  --ckpt_dir /home/ESD_2025/Experiment/ckpt/UNI \
   --exp_name 4cls \
   --input_size 1024 \
   --hidden_size 2048 \
