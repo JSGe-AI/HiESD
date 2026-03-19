@@ -1,6 +1,6 @@
 # **README**
 
-This code repository provides data preprocessing code for the ESD dataset and training code for several baseline models.
+This is the code repository for A fully annotated pathology slide dataset for early gastric cancer and precancerous lesions. The raw data can be found at https://doi.org/10.6084/m9.figshare.28919840.
 
 ## **Data preprocessing**
 
@@ -118,4 +118,16 @@ python Visualization.py \
     --output_dir "./mymodel_predictions_5cls" \
     --device "cuda"
 ```
-
+## Citation
+```
+@article{wang2025fully,
+  title={A fully annotated pathology slide dataset for early gastric cancer and precancerous lesions},
+  author={Wang, Chunbao and Ge, Jiusong and Niu, Yi and Ding, Caixia and Fan, Yangyang and Chang, Hongyun and Yang, Zhe and Ran, Caihong and Teng, Xiali and Wang, Xiaolin and others},
+  journal={Scientific Data},
+  volume={12},
+  number={1},
+  pages={1326},
+  year={2025},
+  publisher={Nature Publishing Group UK London}
+}
+```
