@@ -2,6 +2,10 @@
 
 This is the code repository for A fully annotated pathology slide dataset for early gastric cancer and precancerous lesions. The raw data can be found at https://doi.org/10.6084/m9.figshare.28919840.
 
+## Annotations and Patient–Slide Mapping
+
+Slide-level annotations, patient-to-slide mapping files, and other supporting metadata are available in the [HiESD dataset repository on Hugging Face](https://huggingface.co/datasets/JSGe-AI/HiESD).
+
 ## **Data preprocessing**
 
 The image patches can be obtained using the general WSIs preprocessing framework. 
